@@ -183,9 +183,9 @@ distro==1.9.0 \
     --hash=sha256:2fa77c6fd8940f116ee1d6b94a2f90b13b5ea8d019b98bc8bafdcabcdd9bdbed \
     --hash=sha256:7bffd925d65168f85027d8da9af6bddab658135b840670a223589bc0c8ef02b2
     # via openai
-django==5.1.13 \
-    --hash=sha256:06f257f79dc4c17f3f9e23b106a4c5ed1335abecbe731e83c598c941d14fbeed \
-    --hash=sha256:543ff21679f15e80edfc01fe7ea35f8291b6d4ea589433882913626a7c1cf929
+django==5.1.14 \
+    --hash=sha256:2a4b9c20404fd1bf50aaaa5542a19d860594cba1354f688f642feb271b91df27 \
+    --hash=sha256:b98409fb31fdd6e8c3a6ba2eef3415cc5c0020057b43b21ba7af6eff5f014831
     # via
     #   django-annoying
     #   django-cors-headers
@@ -722,9 +722,9 @@ pycparser==2.23 ; implementation_name != 'PyPy' and platform_python_implementati
     --hash=sha256:78816d4f24add8f10a06d6f05b4d424ad9e96cfebf68a4ddc99c65c0720d00c2 \
     --hash=sha256:e5c6e8d3fbad53479cab09ac03729e0a9faf2bee3db8208a550daf5af81a5934
     # via cffi
-pydantic==2.12.3 \
-    --hash=sha256:1da1c82b0fc140bb0103bc1441ffe062154c8d38491189751ee00fd8ca65ce74 \
-    --hash=sha256:6986454a854bc3bc6e5443e1369e06a3a456af9d339eda45510f517d9ea5c6bf
+pydantic==2.12.4 \
+    --hash=sha256:0f8cb9555000a4b5b617f66bfd2566264c4984b27589d3b845685983e8ea85ac \
+    --hash=sha256:92d3d202a745d46f9be6df459ac5a064fdaa3c1c4cd8adcfa332ccf3c05f871e
     # via
     #   datamodel-code-generator
     #   jsf
@@ -732,26 +732,26 @@ pydantic==2.12.3 \
     #   label-studio-sample
     #   label-studio-sdk
     #   openai
-pydantic-core==2.41.4 \
-    --hash=sha256:025ba34a4cf4fb32f917d5d188ab5e702223d3ba603be4d8aca2f82bede432a4 \
-    --hash=sha256:304c54176af2c143bd181d82e77c15c41cbacea8872a2225dd37e6544dce9999 \
-    --hash=sha256:3a95d4590b1f1a43bf33ca6d647b990a88f4a3824a8c4572c708f0b45a5290ed \
-    --hash=sha256:4a9ab037b71927babc6d9e7fc01aea9e66dc2a4a34dff06ef0724a4049629f94 \
-    --hash=sha256:4f5d640aeebb438517150fdeec097739614421900e4a08db4a3ef38898798537 \
-    --hash=sha256:70e47929a9d4a1905a67e4b687d5946026390568a8e952b92824118063cee4d5 \
-    --hash=sha256:833eebfd75a26d17470b58768c1834dfc90141b7afc6eb0429c21fc5a21dcfb8 \
-    --hash=sha256:84d8854db5f55fead3b579f04bda9a36461dab0730c5d570e1526483e7bb8431 \
-    --hash=sha256:98f348cbb44fae6e9653c1055db7e29de67ea6a9ca03a5fa2c2e11a47cff0e47 \
-    --hash=sha256:9be1c01adb2ecc4e464392c36d17f97e9110fbbc906bcbe1c943b5b87a74aabd \
-    --hash=sha256:ab06d77e053d660a6faaf04894446df7b0a7e7aba70c2797465a0a1af00fc887 \
-    --hash=sha256:b9f5f30c402ed58f90c70e12eff65547d3ab74685ffe8283c719e6bead8ef53f \
-    --hash=sha256:bd8a5028425820731d8c6c098ab642d7b8b999758e24acae03ed38a66eca8335 \
-    --hash=sha256:c53ff33e603a9c1179a9364b0a24694f183717b2e0da2b5ad43c316c956901b2 \
-    --hash=sha256:d682cf1d22bab22a5be08539dca3d1593488a99998f9f412137bc323179067ff \
-    --hash=sha256:dd96e5d15385d301733113bcaa324c8bcf111275b7675a9c6e88bfb19fc05e3b \
-    --hash=sha256:e4dab9484ec605c3016df9ad4fd4f9a390bc5d816a3b10c6550f8424bb80b18c \
-    --hash=sha256:ec22626a2d14620a83ca583c6f5a4080fa3155282718b6055c2ea48d3ef35970 \
-    --hash=sha256:f9672ab4d398e1b602feadcffcdd3af44d5f5e6ddc15bc7d15d376d47e8e19f8
+pydantic-core==2.41.5 \
+    --hash=sha256:070259a8818988b9a84a449a2a7337c7f430a22acc0859c6b110aa7212a6d9c0 \
+    --hash=sha256:08daa51ea16ad373ffd5e7606252cc32f07bc72b28284b6bc9c6df804816476e \
+    --hash=sha256:1746d4a3d9a794cacae06a5eaaccb4b8643a131d45fbc9af23e353dc0a5ba5c3 \
+    --hash=sha256:1962293292865bca8e54702b08a4f26da73adc83dd1fcf26fbc875b35d81c815 \
+    --hash=sha256:482c982f814460eabe1d3bb0adfdc583387bd4691ef00b90575ca0d2b6fe2294 \
+    --hash=sha256:65840751b72fbfd82c3c640cff9284545342a4f1eb1586ad0636955b261b0b05 \
+    --hash=sha256:76d0819de158cd855d1cbb8fcafdf6f5cf1eb8e470abe056d5d161106e38062b \
+    --hash=sha256:7da7087d756b19037bc2c06edc6c170eeef3c3bafcb8f532ff17d64dc427adfd \
+    --hash=sha256:aabf5777b5c8ca26f7824cb4a120a740c9588ed58df9b2d196ce92fba42ff8dc \
+    --hash=sha256:b74557b16e390ec12dca509bce9264c3bbd128f8a2c376eaa68003d7f327276d \
+    --hash=sha256:bfea2a5f0b4d8d43adf9d7b8bf019fb46fdd10a2e5cde477fbcb9d1fa08c68e1 \
+    --hash=sha256:c007fe8a43d43b3969e8469004e9845944f1a80e6acd47c150856bb87f230c56 \
+    --hash=sha256:c23e27686783f60290e36827f9c626e63154b82b116d7fe9adba1fda36da706c \
+    --hash=sha256:d38548150c39b74aeeb0ce8ee1d8e82696f4a4e16ddc6de7b1d8823f7de4b9b5 \
+    --hash=sha256:e536c98a7626a98feb2d3eaf75944ef6f3dbee447e1f841eae16f2f0a72d8ddc \
+    --hash=sha256:e96cea19e34778f8d59fe40775a7a574d95816eb150850a85a7a4c8f4b94ac69 \
+    --hash=sha256:eceb81a8d74f9267ef4081e246ffd6d129da5d87e37a77c9bde550cb04870c1c \
+    --hash=sha256:ed2e99c456e3fadd05c991f8f437ef902e00eedf34320ba2b0842bd1c3ca3a75 \
+    --hash=sha256:f41a7489d32336dbf2199c8c0a215390a751c5b014c2c1c5366e817202e9cdf7
     # via
     #   label-studio-sdk
     #   pydantic
@@ -795,9 +795,9 @@ python-json-logger==2.0.4 \
     --hash=sha256:3b03487b14eb9e4f77e4fc2a023358b5394b82fd89cecf5586259baed57d8c6f \
     --hash=sha256:764d762175f99fcc4630bd4853b09632acb60a6224acb27ce08cd70f0b1b81bd
     # via label-studio
-pytokens==0.2.0 \
-    --hash=sha256:532d6421364e5869ea57a9523bf385f02586d4662acbcc0342afd69511b4dd43 \
-    --hash=sha256:74d4b318c67f4295c13782ddd9abcb7e297ec5630ad060eb90abf7ebbefe59f8
+pytokens==0.3.0 \
+    --hash=sha256:2f932b14ed08de5fcf0b391ace2642f858f1394c0857202959000b68ed7a458a \
+    --hash=sha256:95b2b5eaf832e469d141a378872480ede3f251a5a5041b8ec6e581d3ac71bbf3
     # via black
 pytz==2022.7.1 \
     --hash=sha256:01a0681c4b9684a28304615eba55d1ab31ae00bf68ec157ec3708a8182dbbcd0 \
