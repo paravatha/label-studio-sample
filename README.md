@@ -26,17 +26,13 @@ The script will prompt for an admin password if `ADMIN_PASS` is not set in your 
 
 ## Environment variables (optional)
 
-`PYTHON` - path to Python executable to use (default: `python3`)
-`LS_HOST` - host to bind Label Studio to (default: `127.0.0.1`)
-`LS_PORT` - port to serve Label Studio on (default: `8080`)
-`LS_DATA_DIR` - data directory for Label Studio (default: `~/label_studio_data`)
 `ADMIN_USER` - admin username/email (default: `admin@example.com`)
 `ADMIN_PASS` - admin password; if not provided the script will prompt for it
 
 Example using environment variables:
 
 ```zsh
-LS_HOST=0.0.0.0 LS_PORT=8080 ADMIN_USER=admin@example.com scripts/run.sh
+ADMIN_USER=admin@example.com scripts/run.sh
 ```
 
 ## Troubleshooting
