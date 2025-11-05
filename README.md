@@ -37,8 +37,6 @@ ADMIN_USER=admin@example.com scripts/run.sh
 
 ## Troubleshooting
 
-- If the script fails with "python: command not found", set `PYTHON` to a valid Python 3 path, e.g. `PYTHON=$(which python3)`.
-- If installation errors occur while building wheels (e.g., `opencv-python` or `lxml`), ensure you have Xcode command line tools installed on macOS: `xcode-select --install`.
 - To re-create the venv from scratch:
 
 ```zsh
