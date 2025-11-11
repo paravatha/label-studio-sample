@@ -1235,7 +1235,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "label-studio", specifier = "~=1.21.0" },
-    { name = "pydantic", specifier = "~=2.12.3" },
+    { name = "pydantic", specifier = "~=2.12.4" },
     { name = "pytest-dotenv", specifier = ">=0.5.2,<0.6" },
     { name = "python-dateutil", specifier = ">=2.9.0,<3" },
 ]

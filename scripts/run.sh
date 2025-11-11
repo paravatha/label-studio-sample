@@ -27,4 +27,4 @@ fi
 echo "Starting Label Studio"
 
 # run label-studio start with provided options
-label-studio start --username "$ADMIN_USER" --password "$ADMIN_PASS"
+label-studio start -p 8091 --username "$ADMIN_USER" --password "$ADMIN_PASS"
